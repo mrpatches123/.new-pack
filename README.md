@@ -29,19 +29,24 @@ run:
 
   ```npm run new-pack --pName="Pack-Name"```
   
+  
 --fName (folder Name) default?= "new-pack"
 
   ```npm run new-pack --fName="folder-Name"```
+  
   
 --pDesc (Pack Desciption) default?= "1.0.0"
 
   ```npm run new-pack --pDesc="jwkdkjwdwjwdjkwdjwdj"```
 
+
 --pEntry (Pack Scripting Entry) default?= "index.js"
 
   ```npm run new-pack --pEntry="main.js"```
   
+  
 --pModules (Pack Scripting Modules) default?= "su"
+
   a - "@minecraft/server-admin"
   
   s -  "@minecraft/server"
@@ -53,6 +58,7 @@ run:
   n -  "@minecraft/server-net"
   
   ```npm run new-pack --pModules="sun"```
+  
   
 --pv (Pack Scripting Version) default?= "b"
 
