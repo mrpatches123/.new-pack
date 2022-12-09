@@ -9,7 +9,7 @@ const pName = process.env.npm_config_pname ?? 'new-pack';
 const pDesc = process.env.npm_config_pdesc ?? '1.0.0';
 const pEntry = process.env.npm_config_pentry ?? 'index.js';
 const pModules = [...(process.env.npm_config_pmodules ?? 'su')];
-const pVersion = process.env.npm_config_pv ?? 'b';
+const pVersion = process.env.npm_config_pver ?? 'b';
 
 const charToModule = {
 	n: {
@@ -30,7 +30,7 @@ const charToModule = {
 	},
 	s: {
 		"module_name": "@minecraft/server",
-		"version": (pVersion === 'b') ? "1.0.0-beta" : (pVersion === 'p') ? "1.1.0-beta" : [0, 1, 0]
+		"version": (pVersion === 'b') ? "1.1.0-beta" : (pVersion === 'p') ? "1.1.0-beta" : (pVersion === 's') ? "1.0.0" : [0, 1, 0]
 	}
 };
 console.log(JSON.stringify({ fName, pName, pDesc, pEntry }));

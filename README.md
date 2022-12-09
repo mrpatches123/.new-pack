@@ -60,15 +60,15 @@ run:
   ```npm run new-pack --pModules="sun"```
   
   
---pv (Pack Scripting Version) default?= "b"
+--pVer (Pack Scripting Version) default?= "b"
 
-  s - Stable server and ui is [0,1,0], rest is "1.0.0-beta"
+  s - Stable - All "1.0.0-beta" but server is "1.0.0"
   
-  b - Beta all is "1.0.0-beta"
+  b - Beta - All "1.0.0-beta" but server is "1.1.0-beta"
   
-  p - Preview beta but server is "1.1.0-beta"
+  p - Preview - All "1.0.0-beta" but server is "1.1.0-beta"
   
-   ```npm run new-pack --pModules="p"```
+   ```npm run new-pack --pVer="p"```
    
 
 
