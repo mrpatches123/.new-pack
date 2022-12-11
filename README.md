@@ -13,7 +13,11 @@ open your com.mojang folder in vsc and open it in the intergrated terminal
 (make sure you install git and you can change development_behavior_packs to any pack folder in your com.mojang) 
 run:
 
-```git clone https://github.com/mrpatches123/.new-pack.git development_behavior_packs```
+```
+git init
+git pull origin master 
+```
+
 
 now open development_behavior_packs in the intergrated terminal
 run: 
