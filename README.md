@@ -11,7 +11,7 @@ open your com.mojang folder in vsc and open it in the intergrated terminal
 ```C:\Users\%UserProfile%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang```
 
 (make sure you install git and you can change development_behavior_packs to any pack folder in your com.mojang) 
-run:
+now open development_behavior_packs in the intergrated terminal and run:
 
 ```
 git init
@@ -19,8 +19,7 @@ git remote add origin https://github.com/mrpatches123/.new-pack.git
 git pull origin main 
 ```
 
-
-now open development_behavior_packs in the intergrated terminal
+then to create a new pack,
 run: 
 
 ```npm run new-pack --pName="Pack-Name" --pDesc="1.0.0 - aphalpke"```
