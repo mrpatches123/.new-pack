@@ -121,6 +121,6 @@ writeFileSync(`${pathFolder}manifest.json`, JSON.stringify(manifest, null, 4));
 mkdirSync(`${pathFolder}scripts/`);
 writeFileSync(`${pathFolder}scripts/${pEntry}`, '');
 
-writeFileSync(`${pathFolder}package.json`, {
+writeFileSync(`${pathFolder}package.json`, JSON.stringify({
 	"type": "module"
-});
+}));
